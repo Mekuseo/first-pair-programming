@@ -62,6 +62,8 @@ body {
 }
 
 li {
+  float: left;
+  margin: 0 8px 0 0;
   font-weight: 600;
   list-style: none;
 }
@@ -158,8 +160,6 @@ img {
 }
 
 .skill {
-  display: flex;
-  width: 90%;
   justify-content: space-between;
   color: #6070ff;
 }
